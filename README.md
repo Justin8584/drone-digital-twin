@@ -18,7 +18,7 @@ See [docs/setup/quick_start.md](docs/setup/quick_start.md) for installation inst
 
 ## Architecture
 
-![System Architecture](docs/images/architecture.png)
+![System Architecture]
 
 ## Components
 
