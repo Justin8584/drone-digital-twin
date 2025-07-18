@@ -12,9 +12,9 @@ This project creates a digital twin simulation system for autonomous drones desi
 - **Wildlife detection** algorithms
 - **Autonomous mission planning**
 
-## Quick Start
+## Quick Start & Dependence
 
-See [docs/setup/quick_start.md](docs/setup/quick_start.md) for installation instructions.
+See docs
 
 ## Architecture
 
