@@ -137,12 +137,23 @@ bash ./Tools/setup/ubuntu.sh
 
 # Build PX4 SITL (Software In The Loop)
 make px4_sitl_default
+
+# Gazebo Installation
+cd ~
+
+sudo wget https://packages.osrfoundation.org/gazebo.gpg -O /usr/share/keyrings/pkgs-osrf-archive-keyring.gpg
+
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/pkgs-osrf-archive-keyring.gpg] http://packages.osrfoundation.org/gazebo/ubuntu-stable $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/gazebo-stable.list > /dev/null
+
+sudo apt update
+sudo apt install -y gz-harmonic
 ```
 
 - Test PX4 with Gazebo
 
 ```
 # Test with quadcopter model
+cd ~/app/PX4-Autopilot
 make px4_sitl gz_x500
 ```
 
