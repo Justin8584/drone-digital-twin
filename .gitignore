@@ -48,4 +48,4 @@ data/logs/*.log
 data/datasets/*.csv
 *.tmp
 
-:Zone.Identifier
+*:Zone.Identifier
