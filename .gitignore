@@ -47,3 +47,5 @@ Thumbs.db
 data/logs/*.log
 data/datasets/*.csv
 *.tmp
+
+:Zone.Identifier
